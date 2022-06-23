@@ -1,0 +1,8 @@
+CREATE TABLE empresa (
+id INTEGER PRIMARY KEY AUTOINCREMENT
+UNIQUE,
+razao_social TEXT NOT NULL,
+cnpj TEXT NOT NULL,
+inscricao_estadual TEXT NOT NULL,
+senha TEXT NOT NULL
+);
