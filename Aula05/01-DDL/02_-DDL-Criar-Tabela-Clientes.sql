@@ -1,4 +1,4 @@
-CREATE TABLE Empresa (
+CREATE TABLE Cliente (
     id                 INTEGER     PRIMARY KEY AUTOINCREMENT
                                    UNIQUE,
     nome               TEXT        NOT NULL,
@@ -21,10 +21,8 @@ CREATE TABLE Empresa (
     conta_corrente     TEXT        NOT NULL
                                    UNIQUE,
     agencia            TEXT        NOT NULL,
-    razao_social       TEXT,
-    cnpj               TEXT        NOT NULL
-                                   UNIQUE,
-    inscricao_estadual TEXT,
-    data_abertura      DATE,
+    data_cadastro       TEXT NOT NULL,
+    data_atualização 
     senha              TEXT        NOT NULL
 );
+-- criri tabela clientes tem os mesmos campos de pessoa
